@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>What's it like outside?</title>
+</head>
+<body>
+    <div class="bg-dark">
+        <h1 class="text-center mb-2 p-2 text-light">Weather Dashboard</h1>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3">
+                <form>
+                    <div class="input-group m-2 pr-3">
+                        <input type="text" class="form-control" id="citySearchInput" placeholder="Search for a City">
+                        <div class="input-group-append">
+                            <button class="bt btn-outline-secondary" type="submit" id="citySearchButton"><i class ="fas fa-search"></i></button>
+                        </div>
+                    </div>
+                </form>
+                <div class="w-100">
+                    <ul class="list-group cityList mx-2 mt-3"></ul>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="card shawdow m-2">
+                    <div class="card-body cityToday"></div>
+                </div>
+                <div class="m-2">
+                    <h3>5-Day Forecast:</h3>
+                    <div class="forecast row text-light"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="assets/js/javascript.js"></script>
+</body>
+</html>
