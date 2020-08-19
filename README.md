@@ -31,6 +31,6 @@ I've been trying to figure out why it's not working but ran out of time.
 This homework roughed me up worse than the quiz... I've been noticing there are several different ways to making queryAPIs with your code. And everyone does it differently. I just need to find my way and stick to it. I don't think what I had was working with my code. If I had more time, I think I could have gotten it to work better for me.
 
 ```
-<img src="capture.PNG">
+<img src="assets/capture.png">
 - - -
 © 2020 Lisa Worsham Services, Inc. All Rights Reserved.
